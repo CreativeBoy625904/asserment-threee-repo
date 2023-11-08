@@ -815,7 +815,7 @@ font-size: 20px;
 
 
     .container{
-        width: 100%;
+        width: 100%; 
     }
 .all-head {
         display: flex;
@@ -876,9 +876,12 @@ font-size: 20px;
 
 .backkground-img {
     background-image: linear-gradient(to right, rgba(109, 42, 55, 0.603), rgba(3, 35, 51, 0.089)), url(./img/frist.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 
     border-radius: 5px;
-width: 90%;
+width: 100%;
     height: 262px;
    
     display: flex;
@@ -960,6 +963,7 @@ color: #1D1D1D;
 
 .top-text p {
 color:  #777;
+width: 290px;
     text-align: center;
     font-family: Poppins;
     font-size: 14px;
@@ -974,19 +978,24 @@ color:  #777;
 .all-card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    width: 100%;
     gap: 24px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
 }
 /* ......................................left side card----------------------------- */
 .card-one {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
- width: 100%;
+    justify-content: center;
+ width: 300px;
     border-radius: 5px;
     border: 1px solid#E8E8E8;
     background: #FFF;
     margin-top: 50px;
+    padding: 3px ;
 }
 
 
@@ -994,7 +1003,7 @@ color:  #777;
 
 
 .card-left img {
-    width: 280px;
+    width: 300px;
     height: 150px;
  
 }
@@ -1006,8 +1015,9 @@ color:  #777;
 
 .card-right h1 {
 color: #4A4A4A;
+width: 280px;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -1016,10 +1026,11 @@ color: #4A4A4A;
 .card-right p {
 color: #777;
     font-family: Poppins;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    width: 280px;
 }
 
 .a a {
@@ -1048,8 +1059,10 @@ color: #289BDE;
     border-radius: 5px;
     border: 1px solid #289BDE;
     background-color: #289BDE;
-
 }
+
+
+
 /* explore-right-side */
 
 .explore-all-side {
@@ -1061,11 +1074,12 @@ color: #289BDE;
 }
 
 .explore-left-side {
-    width: 90%;
+    width: 100%;
 }
 
 .explore-left-side img {
-    width: 90%;
+    width:  100%;
+    margin-bottom: 20px;
 }
 
 .explore-right-side {
@@ -1080,6 +1094,7 @@ color: #1D1D1D;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 13px;
 
 }
 
@@ -1211,33 +1226,41 @@ width: 100%;
 
 
 
-.succesfukll-text {
-    width:290px;
+.succesfull-text {
+    width:100%;
     margin-top: 130px;
+    text-align: center;
+   
+
+margin: 0 auto;
+
 }
 
-.succesfukll-text h1 {
+
+.succesfull-text h1 {
 color: #1D1D1D;
+margin-top: 50px;
+padding-bottom: 13px;
     text-align: center;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: normal;}
 
-}
 
-.succesfukll-text p {
+
+.succesfull-text p {
 color:  #777;
     text-align: center;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 21px;
+    line-height: 21px;}
    
 
-}
+
 
 .full-card {
     display: flex;
@@ -1276,16 +1299,22 @@ color:  #777;
     line-height: normal;
 }
 /* < !-- --------------------feedback-------------------- --> */
-
+#feedback{
+        
+}
 .all-feedback {
-
+display: flex;
+align-items: center;
+justify-content: center;
     width:300px;
-    margin-top: 110px;
+margin: 0 auto;
+
 }
 
 .feedback-text {
-    width:300px;
-    margin: 0 auto;
+    width:100%;
+  margin: 0 auto;
+  
 
 }
 
@@ -1297,6 +1326,7 @@ color:  #1D1D1D;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-top: 110px;
 
 }
 
@@ -1308,7 +1338,7 @@ color:  #1D1D1D;
         font-style: normal;
         font-weight: 400;
         line-height: 21px;
-     
+     margin-top: 10px;
 
 }
 /* < !-- --------------------feedback card-------------------- --> */
@@ -1441,6 +1471,7 @@ width: 290px;
 }
 
 .frist-detail {
+    display: inline;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1499,13 +1530,14 @@ color: #777;
     width: 300px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    margin: 0 auto;
     background-color: #FDF8EE;
     padding-top: 40px;
     margin-top: 150px;
 }
 .left-premium-detail img{
-    width: 290px;
+    width:100%;
     padding-bottom: 30px;
 }
 .mini-part-left-big img{
@@ -1564,10 +1596,100 @@ color: #777;
     line-height: 171%;
 
 }
+/* < !-- -------------------------companies <section></section>---------------- --> */
 
 
+.companies-top {
+     width: 300px;
+    margin-top: 130px;
+    margin: 0 auto;
+}
+
+.companies-top h1 {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+
+}
+
+.companies-pic {
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+}
+
+.companies-pic img{
+   margin: 0 auto;
+   
+}
+/* < !-- ..................................footer <section></section>--> */
+#footer {
+    background-color: #1D1D1D;
+}
+
+.footer-detail {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D1D1D;
+    margin-top: 135px;
+    padding: 135px 0;
+}
+
+.footer-detail h1 {
+   
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-detail p {
+color:  #E8E8E8;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    
+
+}
 
 
+.footer-detail h4 {
+    color: #E8E8E8;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+        width: 90%;
+}
+
+
+.icon a {
+    color: #fff;
+    font-size: 20px;
+    width: 90%;
+}
+
+.gap {
+    margin-left: 10px;
+}
 
 
 
