@@ -1,0 +1,812 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1160px;
+}
+
+li{
+    list-style: none;
+}
+
+/* < !-- ------------------------------------header <section></section>--> */
+
+.all-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* ---------------------------left-side-head------------- */
+
+
+.left-side-head{
+    color: var(--Dark-02, #4A4A4A);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 25px;
+        font-weight: 600;
+     
+}
+
+/* ---------------------------middle-side-head------------- */
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list a{
+    text-decoration: none;
+    color: var(--Dark-03, #777);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+}
+.left{
+    margin-left: 38px;
+}
+
+/* 
+-------------------------------------right-side-head------------------------------------ */
+
+
+
+
+.right-side-head h1{
+border-radius: 5px;
+    border: 1px solid #289BDE;
+    display: inline;
+    padding: 13px 33px;
+    color: #289BDE;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+}
+
+
+/* < !-- ----------------------------<learning-unt></learning-unt>------------ --> */
+
+
+.backkground-img{
+    background-image:linear-gradient(to right, rgba(109, 42, 55, 0.603), rgba(3, 35, 51, 0.089)),url(./img/frist.png);
+
+    border-radius: 5px;
+width: 100%;
+    height: 700px;
+    flex-shrink: 0;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 43px;
+}
+
+
+.bcg-text{
+    width: 550px;
+  
+}
+.bcg-text h1{
+color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    
+}
+.bcg-text p{
+    color: var(--Dark-07, #F4F4F4);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+      
+}
+.btn{
+   
+}
+
+.btn button {
+    color: #FFF;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 13px 33px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid #289BDE;
+    background-color: #289BDE;
+    transition: 5s all ease;
+
+}
+
+.btn button:hover {
+    background-color: tomato;
+    color: #1D1D1D;
+    transition: .5s all ease;
+}
+
+
+/* < !-- .............................card-top---------------------- --> */
+
+
+.top-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 130px;
+}
+
+.top-text h1{
+color: #1D1D1D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+width: 549px;
+}
+
+.top-text p{
+color: #777;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+   width: 600px;
+}
+
+/* -----------------------------------------card sector-------------------- */
+
+.all-card{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+gap: 24px;
+}
+
+
+
+
+/* ......................................left side card----------------------------- */
+.card-one{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+   
+    border-radius: 5px;
+        border: 1px solid var(--Dark-06, #E8E8E8);
+        background: #FFF;
+        margin-top: 50px;
+}
+
+
+
+
+
+.card-left img{
+width: 180px;
+    height: 150px;
+    flex-shrink: 0;  }
+
+
+
+
+/* ......................................right side card----------------------------- */
+.card-right{
+width: 300px;
+}
+.card-right h1{
+color:  #4A4A4A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-right p{
+color: #777;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.a a{
+    color: #289BDE;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-decoration: none;
+}
+
+/* < !-- ----------------------------------explore <section></section>----------------- --> */
+.top-btn{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+}
+.top-btn button{
+    color: #FFF;
+        margin-top: 30px;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 20px;
+        padding: 13px 33px;
+        font-weight: 600;
+        border-radius: 5px;
+        border: 1px solid #289BDE;
+        background-color: #289BDE;
+
+}
+
+
+/* explore-right-side */
+
+.explore-all-side{
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 130px;
+} 
+.explore-left-side{ 
+    width: 50%;
+}
+.explore-left-side img{
+    width: 530px;
+}
+.explore-right-side{
+    width: 50%;
+    
+}
+.explore-right-side-text h1{
+color:  #1D1D1D;
+width: 500px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    width: 500px;
+    line-height: 60px;
+  
+}
+.explore-right-side-text p{
+color: #777;
+    font-family: Poppins;
+    font-size: 16px;
+width: 500px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.explore-right-side-text p span{
+   padding-top: 50px;
+}
+
+
+
+.all-short-explore-head{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-top: 30px;
+
+   
+}
+.frist-short-explore-head h1{
+    color:  #1D1D1D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        margin-bottom: 10px;
+        line-height: 60px;
+  
+}
+.frist-short-explore-head p{
+    color:  #777;
+        font-family: Poppins;
+        font-size: 20px;
+        
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      
+}
+.frist-short-explore-head span{
+    color:  #575252;
+        font-family: Poppins;
+        font-size: 20px;
+        padding-top: 50px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+}
+
+/* < !-- -----------------------Ready to join?-------------------------- --> */
+
+
+.ready-section-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #289BDE;
+    padding: 80px 100px;
+    margin-top: 100px;
+}
+
+.ready-text-left{
+    width: 528px;
+}
+.ready-section-text h1{
+    color: #FFF;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+        margin-bottom: 20px;
+
+
+}
+.ready-section-text p{
+    color: #F4F4F4;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        
+}
+
+
+
+
+.bton button {
+    color:black;
+    margin-top: 30px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    padding: 13px 33px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 5s all ease;
+
+}
+
+.bton button:hover {
+    background-color: tomato;
+    color: white;
+    transition: .5s all ease;
+}
+
+/* < !-- -------------------------------Meet Our Successfull ------------ --> */
+
+
+
+.succesfukll-text{
+    width: 550px;
+    margin-top: 130px;
+}
+.succesfukll-text h1{
+color:  #1D1D1D;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+  
+}
+.succesfukll-text p{
+color:  #777;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  
+}
+.full-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.frist-card {
+    border: 2px rgb(20, 20, 20) solid;
+    padding: 0 3px;
+}
+.frist-card img{
+    width: 270px;
+}
+.frist-card h1{
+color:  #4A4A4A;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.frist-card p{
+color:  #777;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* < !-- --------------------feedback-------------------- --> */
+
+.all-feedback{
+   
+    width: 100%;
+    margin-top: 110px;
+}
+
+.feedback-text{
+    width: 650px;
+margin: 0 auto;
+
+}
+.feedback-text h1{
+    color:  #1D1D1D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px;
+       
+}
+.feedback-text p{
+color:  #777;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+   
+}
+
+/* < !-- --------------------feedback card-------------------- --> */
+
+.feedback-card-full-detail{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+}
+
+
+.all-pic{ 
+    display: flex;
+  justify-content: space-between;  
+}
+
+.feedback-card-one{
+border-radius: 5px;
+    border: 1px solid #E8E8E8;
+    background:  #FFF;
+    padding: 20px;
+}
+.feedback-card-one p{
+    color:  #777;
+    width: 540px;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        
+}
+       /* ------------------- mini-card------------------------------ */
+
+.feedback-card-one{
+width: 570px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mini-card{
+    margin-top: 20px;
+}
+.mini-right{
+    margin-left: 20px;
+}
+       .mini-right h1{
+color: #4A4A4A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+       }
+
+ .mini-right p{
+    color: #777;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+ }
+
+/* < !-- ----------------------------------asking chapter ------------------- --> */
+
+.Frequently-top{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+
+.Frequently-top h1 {
+    color: #1D1D1D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+
+
+.Frequently-top p{
+    text-align: center;
+  width: 600px;
+color: #777 ;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  
+    
+}
+.Frequently{ width: 100%;
+    display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+}
+
+
+.all-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+margin: 0 auto;
+} 
+
+.frist-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 880px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 10px 13px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 5s all ease;
+}
+
+.frist-detail h1 {
+color:  #4A4A4A;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+
+}
+
+
+.frist-detail:hover p {
+    display: block;
+    transition: .5s all ease;
+}
+
+.p p {
+color:  #777;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+   display: none;
+}
+.p-p p {
+color:  #777;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  
+}
+/* < !-- ---------------------------premium learning------------- -->
+ */
+
+
+
+.all-premium-detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FDF8EE;
+    padding-top: 40px;
+    margin-top: 150px;
+}
+
+
+.mini-part-left img{
+width: 70px;
+height: 70px;
+}
+.right-premium-detail h1{
+    color: #050C26;
+        font-family: Roboto;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 135%;
+       
+}
+.right-premium-detail span{
+color: #FF7426;
+    font-family: Roboto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 135%;
+}
+.mini-part-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: 37px 0;
+}
+.mini-part-right h1{
+    color: #050C26;
+        font-family: Roboto;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 171%;
+      
+}
+.mini-part-right p{
+    color: #8A8A8A;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 171%;
+       
+}
+
+
+
+
+
+
+
+/* < !-- -------------------------companies <section></section>---------------- --> */
+
+
+.companies-top {
+margin-top: 130px;
+}
+.companies-top h1{
+color: #1D1D1D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+   
+}
+.companies-pic{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+/* < !-- ..................................footer <section></section>--> */
+#footer{
+    background-color:#1D1D1D;
+}
+.footer-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1D1D1D;
+    margin-top: 135px;
+    padding: 135px 0;
+}
+
+.footer-detail h1{
+color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer-detail p{
+color: var(--Dark-06, #E8E8E8);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 126%;
+   
+}
+
+
+.footer-detail h4{
+color:  #E8E8E8;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    }
+
+
+.icon a{
+color: #fff;
+font-size: 20px;
+
+}
+.gap{
+    margin-left: 10px;
+}
+
+
+
